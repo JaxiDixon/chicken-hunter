@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		
+		<meta name="author" content="Jaxiii, SamBrishes" />
+		<meta name="publisher" content="Jaxiii, SamBrishes" />
+		<meta name="copyright" content="Jaxiii, SamBrishes, Kenny, bevouliin" />
+		<meta name="keywords" content="Chicken Hunter, Moorhuhn, Huhn, Game, Browsergame, Minigame, GitHub." />
+		<meta name="page-topic" content="Game" />
+		<meta name="page-type" content="Game" />
+		<meta http-equiv="content-language" content="en" />
+		<meta name="robots" content="index, follow" />
+		
+		<title>Chicken Hunter</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="chicken">
+			<div class="dialogs">
+				<div id="overlay" class="overlay"></div>
+				<div id="dialog-startgame" class="dialog">
+					<h2>Start a Game</h2>
+					<div class="dialog-content">
+						<p class="dialog-input">
+							<input type="text" id="create-username" name="username" placeholder="Your Username" />
+						</p>
+						<p class="dialog-input right">
+							<button id="create-account" name="create-account">Start Game</button>
+						</p>
+					</div>
+				</div>
+				
+				<div id="dialog-storage-error" class="dialog">
+					<h2 class="error">Storage Error</h2>
+					<div class="dialog-content">
+						<p class="dialog-input text">
+							Sorry, but your Browser does not support the HTML 5 Local Storage Stuff.
+							Please switch to a newer browser to be able to play this game. Thanks!
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="header">
+				<div class="toolbar">
+					<div class="toolbar-left">
+						<div id="chicken-status" class="toolbar-item toolbar-button toolbar-item-green">Start</div>
+					</div>
+					<div class="toolbar-right">
+						<div class="toolbar-item toolbar-item-blue">
+							Level<span id="level-counter" class="counter">1</span>
+						</div>
+						
+						<div class="toolbar-item toolbar-item-yellow">
+							<span id="chicken-counter" class="counter">0</span>Chickens
+						</div>
+						
+						<div class="toolbar-item toolbar-item-orange">
+							<span id="chicken-points" class="counter">0</span>Points
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="play" class="article"></div>
+			
+			<div class="footer">
+				<div class="footer-table">
+					<div class="footer-left">
+						<div class="copyright copyright-left">
+							Version 0.1.0 - Alpha Demo<br />
+							Fork and <b>Play</b> this Game on <a href="https://github.com/JaxiDixon/chicken-hunter" target="_blank">GitHub</a>
+						</div>
+					</div>
+					<div class="footer-right">
+						<div class="copyright copyright-right">
+							Copyright &copy; 2015 Jaxiii and SamBrishes, pytesNET<br />
+							Design Elements by <a href="http://kenney.nl/" target="_blank">kenney.nl</a> and <a href="http://bevouliin.com/" target="_blank">bevouliin.com</a><br />
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="js-footer">
+				<script type="text/javascript" src="js/mootools-core-1.5.2.js"></script>
+				<script type="text/javascript" src="js/mootools.game.js"></script>
+				<script type="text/javascript" src="js/mootools.script.js"></script>
+				<script type="text/javascript">
+				</script>
+			</div>
+		</div>
+	</body>
+</html>
