@@ -1,6 +1,6 @@
 Chicken Hunter
 ==============
-In this Browsergame you need to kill chickens. Each chicken will give you points, and with these points you can earn useful items to kill more chickens! [Play!](http://jaxidixon.github.io/chicken-hunter)
+In this Browsergame you need to ~~kill~~ hunt chickens. Each chicken will give you points, and with these points you can earn useful items to ~~kill more~~ hunt chickens better! [Play it!](http://jaxidixon.github.io/chicken-hunter)
 
 Attention
 ---------
